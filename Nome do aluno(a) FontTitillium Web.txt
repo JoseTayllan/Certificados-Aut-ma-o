@@ -1,0 +1,12 @@
+Nome do aluno(a): Font:Titillium Web Bold Tamanho: 24.5
+
+
+Campo principal:
+Participou do evento (Nome: evento e/ou palestra), com a supervisão do (Nome: Profesor ou Palestrante) no (Dia) (Mês) de (Ano), no (Local do Evento), no turno XXXXXXXXXXXXXX com um total de XXX horas.
+
+
+cálculo:-64 d0 paint
+
+/ esse e o teste para medir a quebra de linhadas strings com o intuito denão ultrapassar as margens laterais
+
+pip install reportlab

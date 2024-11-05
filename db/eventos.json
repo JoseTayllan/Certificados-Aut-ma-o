@@ -1,0 +1,86 @@
+{
+    "departamentos": [
+        {
+            "DepartamentoId": 1,
+            "NomeDepartamento": "Tecnologia da Informação"
+        }
+    ],
+    "eventos": [
+        {
+            "EventoId": 101,
+            "NomeEvento": "Curso de Python",
+            "DataInicioEvento": "2024-11-02T09:00",
+            "DataFimEvento": "2024-11-02T17:00",
+            "DescricaoEvento": "Curso intensivo de Python.",
+            "TipoEvento": "Interno",
+            "DepartamentoEventoId": 1,
+            "Palestrante": "Dr. João Silva",
+            "Local": "Auditório Principal",
+            "cargaHoraria": 10
+        }
+    ],
+    "participantes": [
+        {
+            "ParticipanteId": 201,
+            "NomeParticipante": "Maria Oliveira",
+            "EmailParticipante": "maria@example.com",
+            "TipoParticipante": "Externo",
+            "DepartamentoParticipanteId": 1
+        },
+        {
+            "ParticipanteId": 1,
+            "NomeParticipante": "José tayllan Pinto Almeida",
+            "EmailParticipante": "jose@example.com",
+            "TipoParticipante": "Interno",
+            "DepartamentoParticipanteId": 1
+        },
+        {
+            "ParticipanteId": 2,
+            "NomeParticipante": "Neymar",
+            "EmailParticipante":"ney@example.com",
+            "TipoParticipante": "Externo",
+            "DepartamentoParticipanteId": 1
+        }
+       
+    ],
+    "inscricoes": [
+        {
+            "InscricaoId": 1,
+            "EventoId": 101,
+            "ParticipanteId": 201,
+            "DataInscricao": "2024-10-15T14:30",
+            "Compareceu": true
+        },
+        {
+            "InscricaoId": 2,
+            "EventoId": 101,
+            "ParticipanteId": 1,
+            "DataInscricao": "2024-10-15T14:30",
+            "Compareceu": true
+        },
+        {
+            "InscricaoId": 3,
+            "EventoId": 101,
+            "ParticipanteId": 2,
+            "DataInscricao": "2024-10-15T14:30",
+            "Compareceu": true
+        }
+    ],
+    "certificados": [
+        {
+            "CertificadoId": 401,
+            "InscricaoId": 301,
+            "DataEmissaoCertificado": "2024-11-02T17:30"
+        },
+        {
+            "CertificadoId": 1,
+            "InscricaoId": 1,
+            "DataEmissaoCertificado": "2024-11-02T17:30"
+        },
+        {
+            "CertificadoId": 2,
+            "InscricaoId": 2,
+            "DataEmissaoCertificado": "2024-11-02T17:30"
+        }
+    ]
+}
